@@ -116,7 +116,6 @@
 
 #body-section {
   width: 100%;
-  align-items: center;
   /* text-align: center; For  All Text In Center */
   margin: 0 auto;
 }
@@ -289,7 +288,7 @@
   padding: 20px 0;
   overflow: hidden;
 }
-#course h1{
+#course h1 {
   text-align: center;
   font-family: cursive;
   color: rgb(125, 7, 7);
@@ -297,7 +296,7 @@
   text-shadow: #5d2c2c;
   font-weight: bold;
 }
-#course p{
+#course p {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 1.1rem;
   margin: 7px;
@@ -312,7 +311,7 @@
   display: flex;
 }
 .course-img {
-  margin:10px 5px;
+  margin: 10px 5px;
   width: 30%;
   position: relative;
 }
@@ -345,67 +344,46 @@
   text-align: center;
   align-items: center;
 }
-.btn h2{
-    text-align: center;
-    font-size: 1.4rem;
-    font-weight:540px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    padding: 5px;
-    margin: 5px 0;
-    
+.btn h2 {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 540px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 5px;
+  margin: 5px 0;
 }
-.course-img .btn button{
+.course-img .btn button {
   border: 1.5px solid #fff;
   border-radius: 20px;
   font-size: 1.1rem;
-  padding:5px 10px;
+  padding: 5px 10px;
 }
-footer{
+footer {
   font-family: "Mukta", sans-serif;
-  background-color: #480A31;
-  
+  background-color: #480a31;
 }
-.footer{
+.footer {
   justify-content: space-around;
 }
-.footer-about{
- margin:0 1px;
- padding: 0;
+.footer-about {
+  margin: 0 1px;
+  padding: 0;
 }
-.footer-about img{
+.footer-about img {
   text-align: center;
   width: 110px;
   margin-bottom: 15px;
 }
-.footer-about h5{
-  width:300px;
+.footer-about h5 {
+  width: 300px;
 }
-#address{
-  justify-content:center;
+#address {
+  justify-content: center;
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-device-width: 1185px) /* STYLES HERE */ {
+.small-screen/* STYLES HERE */ {
   #container {
     background: #ffffff;
   }
@@ -460,7 +438,7 @@ footer{
     font-size: 0.9rem;
   }
   #slider {
-    margin: 0;
+    margin:0;
     height: 300px;
   }
   #slider img {
@@ -474,13 +452,12 @@ footer{
     flex-direction: column;
     margin: 20px 0;
     padding: 20px 0;
-    
   }
   .about-text,
   .about-img {
     margin: 0;
     padding: 0;
-    width:100%;
+    width: 100%;
     text-align: center;
     justify-content: center;
   }
@@ -490,7 +467,6 @@ footer{
     object-fit: contain;
     width: 100%;
     height: auto;
-    
   }
 
   .mission-img {
@@ -498,13 +474,12 @@ footer{
     flex-direction: column;
     margin: 20px auto;
   }
-  .mission-img img{
+  .mission-img img {
     margin: 5px auto;
     width: 400px;
     height: auto;
-    
   }
-  .course-list{
+  .course-list {
     text-align: center;
     justify-content: center;
     display: flex;
@@ -515,55 +490,27 @@ footer{
     margin: 10px auto;
     position: relative;
   }
-  .overlay{
+  .overlay {
     width: 400px;
   }
-  .course-img img{
-    width:400px;
+  .course-img img {
+    width: 400px;
     height: auto;
   }
 
-  .footer-about{
+  .footer-about {
     width: 100%;
     justify-content: center;
     text-align: center;
   }
-  .footer-about h5{
+  .footer-about h5 {
     width: 100%;
   }
-  .link{
+  .link {
     width: 100%;
-    
   }
-  #address{
-    justify-content:start;
+  #address {
+    justify-content: start;
   }
-
-
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 560px) {
-  #slider {
-    margin: -50px 0;
-    height: 300px;
-  }
-  
-}

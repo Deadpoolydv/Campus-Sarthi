@@ -45,3 +45,23 @@ function nextSlide(){
     slideIndex++;
     showSlide(slideIndex);
 }
+
+
+
+
+// For Mobile View 
+
+function checkWindowSize() {
+    const windowWidth = window.innerWidth;
+    const threshold = 1000; // adjust this value to your needs
+  
+    if (windowWidth <= threshold) {
+      document.documentElement.classList.add('small-screen');
+    }
+     else {
+      document.documentElement.classList.remove('small-screen');
+    }
+  }
+  
+  window.addEventListener('resize', checkWindowSize);
+  checkWindowSize(); 
