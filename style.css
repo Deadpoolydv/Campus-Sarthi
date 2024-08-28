@@ -619,5 +619,12 @@ footer {
     width:100%;
     justify-content:center;
   }
+  .contact-form{
+    margin: 0;
+  }
+  .contact-field{
+    width:100%;
+    
+  }
 }
 
