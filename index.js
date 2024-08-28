@@ -49,7 +49,7 @@ function nextSlide(){
 
 
 
-// For Mobile View 
+// For Responsible Mobile View 
 
 function checkWindowSize() {
     const windowWidth = window.innerWidth;

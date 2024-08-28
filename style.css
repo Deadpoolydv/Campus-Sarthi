@@ -381,7 +381,96 @@ footer {
   justify-content: center;
 }
 
+.image-prev{
 
+  position: relative;
+  margin: 10px 0;
+  
+}
+.image-prev img{
+  object-fit: cover;
+  opacity: 0.8 black;
+  width: 100%;
+  height:350px;
+  
+}
+.image-prev .img-text{
+  color: #ffffff;
+  font-size:2rem ;
+  font-weight: 700;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
+.contact-us{
+  display: flex;
+  width: 100%;
+}
+.contact-form{
+  width: 50%;
+  padding: 0 20px;
+  margin-left: 40px;
+  margin-top: 20px;
+  align-items: center ;
+ justify-content: center;
+}
+.contact-form2{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 10px;
+}
+.textarea{
+  width: 100%;
+  padding: 10px;
+  
+}
+.textarea textarea{
+  width: 100%;
+  min-height: 100px;
+  padding: 10px;
+}
+.contact-field{
+  justify-content: space-around;
+  width:50%;
+  padding: 10px;
+}
+.contact-field .input{
+  width: 100%;
+  border-radius: 3px;
+  font-size: 1rem;
+}
+.contact-field select{
+  width: 100%;
+  border-radius: 3px;
+  padding: 8px;
+}
+
+.contact-us h1{
+  color: #42013d;
+  font-size:2rem;
+  font-weight: 700;
+  text-align: center;
+}
+.contact-btn{
+  color: #fff;
+  width: 100%;
+  background-color:#480a31;
+  text-align: center;
+  margin: 0 10px;
+  padding: 10px 20px;
+}
+
+
+.contact-img{
+  width: 50%;
+  justify-content:center;
+}
+.contact-img img{
+  padding:20px 40px;
+}
 
 .small-screen/* STYLES HERE */ {
   #container {
@@ -511,6 +600,24 @@ footer {
   }
   #address {
     justify-content: start;
+  }
+  .image-prev img{
+    object-fit:cover;
+    opacity: 0.8 black;
+    width: 100%;
+    height:200px;
+    
+  }
+  .contact-us{
+    flex-direction: column;
+  }
+  .contact-form{
+    width: 100%;
+    flex-direction: column;
+  }
+  .contact-img{
+    width:100%;
+    justify-content:center;
   }
 }
 
