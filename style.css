@@ -187,16 +187,18 @@
 .about-img {
   width: 50%;
   padding: 5px;
+  
 }
 
 .about-text h1,
 .about-text h2,
 .about-text h3 {
-  font-family: cursive;
+  font-family: "Poppins", system-ui;
   color: rgb(125, 7, 7);
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   text-shadow: #5d2c2c;
   font-weight: bold;
+  gap: 5px;
 }
 .about-text h2 {
   color: rgb(0, 0, 0);
@@ -206,7 +208,9 @@
 .about-text h3 {
   color: rgb(125, 7, 7);
   font-size: 1.3rem;
-  font-weight: 600;
+  font-weight: 500;
+  width: 100%;
+  
 }
 .about-text p {
   font-size: 1.2rem;
@@ -290,19 +294,19 @@
   overflow: hidden;
 }
 #course h1 {
-  text-align: center;
-  font-family: cursive;
-  color: rgb(125, 7, 7);
-  font-size: 1.6rem;
-  text-shadow: #5d2c2c;
-  font-weight: bold;
+    text-align: center;
+    font-family: "Poppins", system-ui;
+    color: rgb(125, 7, 7);
+    font-size: 1.6rem;
+    text-shadow: #5d2c2c;
+    font-weight: 700;
 }
 #course p {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 1.1rem;
-  margin: 7px;
+  font-family:"Times New Roman", Times, serif;
+  font-size: 1.5rem;
+  margin: 5px;
   color: #000000;
-  font-weight: 800;
+  font-weight: 600;
   text-align: center;
 }
 .course-list {
@@ -387,9 +391,9 @@ footer {
   margin: 10px 0;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position-y:center;
+  background-position-y: center;
 }
-.image-prev .img{
+.image-prev .img {
   object-fit: cover;
   width: 100%;
   height: 350px;
@@ -454,14 +458,17 @@ footer {
   font-weight: 700;
   text-align: center;
 }
-.contact-btn ,.reg-btn {
+.contact-btn,
+.reg-btn {
   color: #fff;
   width: 100%;
   background-color: #480a31;
   text-align: center;
   margin: 0 10px;
   padding: 10px 20px;
-  
+}
+.reg-btn{
+  margin:0 ;
 }
 .contact-img {
   width: 50%;
@@ -494,28 +501,30 @@ footer {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.gallary{
-  display: flex;
-  justify-content: space-around;
-  padding: 20px;
+.gallary, .course-name {
+  
+  justify-content:start;
+  padding: 40px;
   margin: 10px 0;
 }
-.gallary-item{
+.gallary-item, .course-name-item {
   width: 30%;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  justify-content:start;
+  
 }
-.gallary-item img{
+.gallary-item img ,.course-name-item img{
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
-.reg-head{
+.reg-head {
   font-family: "Poppins", system-ui;
 }
 .reg-field {
   width: 30%;
 }
+
 .reg-field .input {
   width: 100%;
   border-radius: 3px;
@@ -526,32 +535,27 @@ footer {
   border-radius: 3px;
   padding: 8px;
 }
-.required-field label::after { 
+.required-field label::after {
   content: "*";
   color: red;
 }
-.required-field-1 label::after { 
+.required-field-1 label::after {
   content: "*";
   color: red;
 }
 
-
-.reg-qr{
+.reg-qr {
   text-align: center;
   justify-content: center;
 }
 
-.reg-qr img{
+.reg-qr img {
   text-align: center;
   justify-content: center;
   width: 250px;
   margin-left: 160px;
-    margin-right: 125px;
+  margin-right: 125px;
 }
-
-
-
-
 
 
 
@@ -632,11 +636,17 @@ footer {
   }
   .about-text,
   .about-img {
-    margin: 0;
+    margin: 10px 0 ;
     padding: 0;
     width: 100%;
     text-align: center;
     justify-content: center;
+  }
+  .about-text h3{
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 5px 0;
   }
   .about-img img {
     margin-top: 15px;
@@ -690,11 +700,11 @@ footer {
   #address {
     justify-content: start;
   }
-  .success-txt{
+  .success-txt {
     width: 100%;
     text-align: center;
   }
-  .image-prev .img{
+  .image-prev .img {
     height: 200px;
   }
   .contact-us {
@@ -770,37 +780,38 @@ footer {
     text-align: center;
     width: 100%;
   }
-  .gallary{
+  .gallary {
     display: flex;
     flex-direction: column;
-    
   }
-  .gallary-item{
+  .gallary-item , .course-name-item {
     width: 100%;
     margin: 15px 0;
   }
-  .reg-form{
+  .reg-form {
     margin: 40px 0;
   }
-  .reg-form-1, .reg-pay{
+  .reg-form-1,
+  .reg-pay {
     display: flex;
     flex-direction: column;
     padding: 20px;
   }
-  .reg-field{
+  .reg-field {
     width: 100%;
   }
-  .reg-qr, .reg-load{
+  .reg-qr,
+  .reg-load {
     width: 100%;
     margin: 10px 0;
     padding: 20px 0;
   }
-  .reg-qr img{
+  .reg-qr img {
     margin-right: 0;
-    margin-left: 55px;
+    margin-left: 45px;
   }
-  .required-field-1{
-    margin:0 0 20px 20px;
-    padding:0 0 0 20px;
+  .required-field-1 {
+    margin: 0 0 20px 20px;
+    padding: 0 0 0 20px;
   }
 }
