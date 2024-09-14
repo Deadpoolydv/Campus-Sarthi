@@ -77,7 +77,7 @@
                     </div>
 
                     <div class="reg-form m-10 ">
-                        <form class="reg-form-1 flex flex-wrap justify-around px-10 gap-5 " action="" method="post">
+                        <form class="reg-form-1 flex flex-wrap justify-around px-10 gap-5 " action="form_action.php" method="post">
 
                             <div class="reg-field required-field">
                                 <label class="label" for="fname">First Name : </label>
@@ -106,7 +106,7 @@
                             <div class="reg-field required-field">
                                 <label class="label" for="gender"> Gender : </label>
                                 <br>
-                                <select id="gender">
+                                <select id="gender" name="gender">
                                     <option value="select">Select</option>
                                     <option value="male">1. Male</option>
                                     <option value="female">2. Famale</option>
@@ -116,7 +116,7 @@
                             <div class="reg-field required-field">
                                 <label class="label" for="education"> Education : </label>
                                 <br>
-                                <select id="education">
+                                <select id="education" name="education">
                                     <option value="select">Select</option>
                                     <option value="10th">1. 10th</option>
                                     <option value="12th">2. 12th</option>
@@ -126,7 +126,7 @@
                             <div class="reg-field required-field">
                                 <label class="label" for="category"> Category : </label>
                                 <br>
-                                <select id="category">
+                                <select id="category" name="category">
                                     <option value="select">Select</option>
                                     <option value="general">1. General</option>
                                     <option value="obc">2. Obc</option>
@@ -198,10 +198,10 @@
                             <div class="reg-field required-field">
                                 <label class="label" for="options"> Select Program : </label>
                                 <br>
-                                <select id="options">
+                                <select id="options" name="options">
                                     <option value="select">Select</option>
                                     <option value="technical">1. Technical</option>
-                                    <option value="paraMedical">2. ParaMedical</option>
+                                    <option value="paramedical">2. ParaMedical</option>
                                     <option value="diploma">3. Diploma</option>
                                     <option value="management">4. Management </option>
                                     <option value="non-technical">5. Non-Technical</option>
@@ -221,6 +221,7 @@
                                 <input class="input" placeholder="Enter Your Destination" type="text" id="location"
                                     name="location">
                             </div>
+                            
 
                             <div class="textarea">
                                 <label class="label" for="address"> Address : </label>
@@ -231,7 +232,7 @@
 
 
                             <div class="reg-btn">
-                                <button type="button" value="submit">Submit</button>
+                                <button type="submit" value="submit" name="form_submit" >Submit</button>
                             </div>
 
                         </form>
