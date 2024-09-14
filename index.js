@@ -65,3 +65,22 @@ function checkWindowSize() {
   
   window.addEventListener('resize', checkWindowSize);
   checkWindowSize(); 
+
+
+
+
+
+
+
+  
+//   const form = document.getElementById('contact-form2');
+
+//   form.addEventListener('submit', (e) => {
+//     e.preventDefault(); // prevent default form submission
+
+//     // display popup message
+//     alert('Form submitted successfully!');
+
+//     // redirect to same page
+//     window.location.contact-using.html;
+//   });
